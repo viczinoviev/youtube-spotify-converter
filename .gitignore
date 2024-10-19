@@ -1,0 +1,33 @@
+# Ignore the .properties file that contains sensitive API keys
+config.properties
+
+# Ignore build directories
+/target/
+/build/
+
+# Ignore IDE-specific files (e.g., IntelliJ IDEA, Eclipse)
+.idea/
+/.project
+.classpath
+.settings/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore Maven and Gradle output
+.mvn/
+.gradle/
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
