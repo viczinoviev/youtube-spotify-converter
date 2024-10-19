@@ -23,6 +23,15 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // YouTube Data API v3 client
+    implementation("com.google.apis:google-api-services-youtube:v3-rev222-1.25.0")
+
+    // Gson (for JSON parsing, commonly used with Google APIs)
+    implementation("com.google.code.gson:gson:2.8.9")
+
+    // JUnit 5 for testing
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
